@@ -1,0 +1,27 @@
+{
+  "id": "pfx-mt2",
+  "name": "Metal Sweep",
+  "abbrev": "MTL",
+  "version": "0.4.0",
+  "author": "Hiro Ikezawa",
+  "license": "MIT",
+  "oversampling": 4,
+  "description": "MT-2-style metal distortion: mid-hump pre-emphasis into two clipping stages, the fixed double-peaked post EQ, +-15 dB Low/High and a 200 Hz-5 kHz sweepable Mid. Plus Mix and Output. Unofficial emulation.",
+  "params": [
+    {"key": "mix",        "name": "Mix",        "default": 1.0},
+    {"key": "distortion", "name": "Distortion", "default": 0.5},
+    {"key": "low",        "name": "Low",        "default": 0.5},
+    {"key": "high",       "name": "High",       "default": 0.5},
+    {"key": "mid",        "name": "Mid",        "default": 0.5},
+    {"key": "mid_freq",   "name": "Mid Freq",   "default": 0.5},
+    {"key": "level",      "name": "Level",      "default": 0.5},
+    {"key": "output",     "name": "Output",     "default": 0.5}
+  ],
+  "presets": [
+    {"name": "Classic Metal", "mix": 1.0, "distortion": 0.65, "low": 0.6, "high": 0.6, "mid": 0.5, "mid_freq": 0.5, "level": 0.465, "output": 0.5},
+    {"name": "Scooped", "mix": 1.0, "distortion": 0.7, "low": 0.85, "high": 0.82, "mid": 0.05, "mid_freq": 0.42, "level": 0.52, "output": 0.5},
+    {"name": "Mid Grind", "mix": 1.0, "distortion": 0.75, "low": 0.45, "high": 0.5, "mid": 0.9, "mid_freq": 0.52, "level": 0.275, "output": 0.5},
+    {"name": "Industrial", "mix": 0.8, "distortion": 1.0, "low": 0.35, "high": 0.88, "mid": 0.75, "mid_freq": 0.78, "level": 0.29, "output": 0.5},
+    {"name": "Bass Destroy", "mix": 0.6, "distortion": 0.8, "low": 0.85, "high": 0.35, "mid": 0.7, "mid_freq": 0.2, "level": 0.43, "output": 0.5}
+  ]
+}

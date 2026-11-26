@@ -1,0 +1,77 @@
+{
+  "title": "Green Screamer",
+  "children": [
+    {
+      "title": "Overview",
+      "lines": [
+        "TS808-style",
+        "overdrive, modelled",
+        "from the circuit.",
+        "",
+        "Bass under 720 Hz",
+        "gets little gain:",
+        "the mid hump. The",
+        "diodes sit in the",
+        "feedback, so the",
+        "clean signal is",
+        "always underneath."
+      ]
+    },
+    {
+      "title": "Controls",
+      "lines": [
+        "1 Mix: dry/wet",
+        "2 Drive: 51k-551k",
+        "  feedback (A pot)",
+        "3 Tone: clockwise",
+        "  = brighter",
+        "4 Bass: 50% = stock",
+        "  <50 thinner,",
+        "  >50 more lows",
+        "  into the drive",
+        "5 Presence: +-9 dB",
+        "  shelf at 3.5 kHz",
+        "6 Input: +-24 dB in",
+        "7 Level: 50% = the",
+        "  input's loudness",
+        "8 Output: +-18 dB"
+      ]
+    },
+    {
+      "title": "Presets",
+      "lines": [
+        "Classic 808",
+        "Clean Boost (+4 dB)",
+        "Mid Push",
+        "Bass Friendly",
+        "Synth Drive"
+      ]
+    },
+    {
+      "title": "Tips",
+      "lines": [
+        "On bass and kicks",
+        "turn Bass up: it",
+        "moves the 720 Hz",
+        "corner down to",
+        "90 Hz, the classic",
+        "C3 bass mod.",
+        "",
+        "Low Drive + high",
+        "Level = the famous",
+        "amp pusher."
+      ]
+    },
+    {
+      "title": "About",
+      "lines": [
+        "Unofficial emulation",
+        "Not affiliated with",
+        "Ibanez or Maxon.",
+        "",
+        "Original code, MIT.",
+        "2x oversampled."
+      ]
+    }
+  ]
+}

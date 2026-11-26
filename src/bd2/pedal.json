@@ -1,0 +1,27 @@
+{
+  "id": "pfx-bd2",
+  "name": "Blues Drive",
+  "abbrev": "BLU",
+  "version": "0.3.0",
+  "author": "Hiro Ikezawa",
+  "license": "MIT",
+  "oversampling": 2,
+  "description": "BD-2-style overdrive: two ganged discrete op-amp stages that clip asymmetrically themselves, wide-band, with the active tone and gyrator bass bump. Plus Mix, Input, Bass, Presence, Output. Unofficial emulation.",
+  "params": [
+    {"key": "mix",        "name": "Mix",        "default": 1.0},
+    {"key": "gain",       "name": "Gain",       "default": 0.5},
+    {"key": "tone",       "name": "Tone",       "default": 0.5},
+    {"key": "bass",       "name": "Bass",       "default": 0.5},
+    {"key": "presence",   "name": "Presence",   "default": 0.5},
+    {"key": "input",      "name": "Input",      "default": 0.5},
+    {"key": "level",      "name": "Level",      "default": 0.5},
+    {"key": "output",     "name": "Output",     "default": 0.5}
+  ],
+  "presets": [
+    {"name": "Classic Blues", "mix": 1.0, "gain": 0.5, "tone": 0.5, "bass": 0.5, "presence": 0.5, "input": 0.5, "level": 0.5, "output": 0.5},
+    {"name": "Clean Crunch", "mix": 1.0, "gain": 0.12, "tone": 0.55, "bass": 0.5, "presence": 0.5, "input": 0.45, "level": 0.63, "output": 0.5},
+    {"name": "Edge", "mix": 1.0, "gain": 0.35, "tone": 0.64, "bass": 0.45, "presence": 0.55, "input": 0.58, "level": 0.48, "output": 0.5},
+    {"name": "Full Gain", "mix": 1.0, "gain": 1.0, "tone": 0.45, "bass": 0.55, "presence": 0.48, "input": 0.55, "level": 0.43, "output": 0.5},
+    {"name": "Synth Crunch", "mix": 0.8, "gain": 0.62, "tone": 0.6, "bass": 0.56, "presence": 0.6, "input": 0.45, "level": 0.42, "output": 0.5}
+  ]
+}

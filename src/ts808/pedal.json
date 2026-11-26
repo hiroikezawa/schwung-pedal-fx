@@ -1,0 +1,27 @@
+{
+  "id": "pfx-ts808",
+  "name": "Green Screamer",
+  "abbrev": "GRN",
+  "version": "0.2.0",
+  "author": "Hiro Ikezawa",
+  "license": "MIT",
+  "oversampling": 2,
+  "description": "TS808-style overdrive: 720 Hz gain-leg bass cut, diode-feedback soft clipping and the active tone amp, modelled from the circuit. Plus Mix, Input, Bass, Presence, Output. Unofficial emulation.",
+  "params": [
+    {"key": "mix",        "name": "Mix",        "default": 1.0},
+    {"key": "drive",      "name": "Drive",      "default": 0.5},
+    {"key": "tone",       "name": "Tone",       "default": 0.5},
+    {"key": "bass",       "name": "Bass",       "default": 0.5},
+    {"key": "presence",   "name": "Presence",   "default": 0.5},
+    {"key": "input",      "name": "Input",      "default": 0.5},
+    {"key": "level",      "name": "Level",      "default": 0.5},
+    {"key": "output",     "name": "Output",     "default": 0.5}
+  ],
+  "presets": [
+    {"name": "Classic 808", "mix": 1.0, "drive": 0.5, "tone": 0.5, "bass": 0.5, "presence": 0.5, "input": 0.5, "level": 0.5, "output": 0.5},
+    {"name": "Clean Boost", "mix": 1.0, "drive": 0.03, "tone": 0.58, "bass": 0.5, "presence": 0.5, "input": 0.5, "level": 0.62, "output": 0.5},
+    {"name": "Mid Push", "mix": 1.0, "drive": 0.72, "tone": 0.4, "bass": 0.25, "presence": 0.42, "input": 0.55, "level": 0.5, "output": 0.5},
+    {"name": "Bass Friendly", "mix": 0.8, "drive": 0.45, "tone": 0.45, "bass": 0.92, "presence": 0.5, "input": 0.5, "level": 0.46, "output": 0.5},
+    {"name": "Synth Drive", "mix": 0.75, "drive": 0.82, "tone": 0.62, "bass": 0.68, "presence": 0.6, "input": 0.45, "level": 0.45, "output": 0.5}
+  ]
+}

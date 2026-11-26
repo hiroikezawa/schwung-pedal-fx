@@ -1,0 +1,78 @@
+{
+  "title": "Blues Drive",
+  "children": [
+    {
+      "title": "Overview",
+      "lines": [
+        "BD-2-style",
+        "overdrive, modelled",
+        "from the stock",
+        "schematic: two",
+        "discrete op-amp",
+        "stages on one",
+        "ganged Gain pot,",
+        "a fixed Fender-type",
+        "tone stack with",
+        "diodes between,",
+        "a passive treble",
+        "cut and a 120 Hz",
+        "gyrator bass bump."
+      ]
+    },
+    {
+      "title": "Controls",
+      "lines": [
+        "1 Mix: dry/wet",
+        "2 Gain: both stages",
+        "  (dual 250k A)",
+        "3 Tone: passive",
+        "  treble cut, flat",
+        "  above 1k at 50%",
+        "4 Bass: +-9 dB",
+        "  shelf at 100 Hz",
+        "5 Presence: +-9 dB",
+        "  shelf at 4.5 kHz",
+        "6 Input: +-24 dB in",
+        "7 Level: the Volume",
+        "  pot; high Level",
+        "  also clips the",
+        "  output diodes",
+        "8 Output: +-18 dB"
+      ]
+    },
+    {
+      "title": "Presets",
+      "lines": [
+        "Classic Blues",
+        "Clean Crunch",
+        "Edge",
+        "Full Gain",
+        "Synth Crunch"
+      ]
+    },
+    {
+      "title": "Tips",
+      "lines": [
+        "Gain 0-30% follows",
+        "your dynamics: use",
+        "Input or the",
+        "source's velocity.",
+        "",
+        "Above 70% it",
+        "breaks up hard,",
+        "asymmetric."
+      ]
+    },
+    {
+      "title": "About",
+      "lines": [
+        "Unofficial emulation",
+        "Not affiliated with",
+        "BOSS / Roland.",
+        "",
+        "Original code, MIT.",
+        "2x oversampled."
+      ]
+    }
+  ]
+}

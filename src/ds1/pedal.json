@@ -1,0 +1,27 @@
+{
+  "id": "pfx-ds1",
+  "name": "Orange Distortion",
+  "abbrev": "ORG",
+  "version": "0.3.0",
+  "author": "Hiro Ikezawa",
+  "license": "MIT",
+  "oversampling": 4,
+  "description": "DS-1-style distortion: 35 dB transistor booster, op-amp gain stage, hard silicon-diode clipper and the scooped passive tone network, modelled from the circuit. Plus Mix, Input, Bass, Presence, Output. Unofficial emulation.",
+  "params": [
+    {"key": "mix",        "name": "Mix",        "default": 1.0},
+    {"key": "distortion", "name": "Distortion", "default": 0.5},
+    {"key": "tone",       "name": "Tone",       "default": 0.5},
+    {"key": "bass",       "name": "Bass",       "default": 0.5},
+    {"key": "presence",   "name": "Presence",   "default": 0.5},
+    {"key": "input",      "name": "Input",      "default": 0.5},
+    {"key": "level",      "name": "Level",      "default": 0.5},
+    {"key": "output",     "name": "Output",     "default": 0.5}
+  ],
+  "presets": [
+    {"name": "Classic DS", "mix": 1.0, "distortion": 0.5, "tone": 0.5, "bass": 0.5, "presence": 0.5, "input": 0.5, "level": 0.5, "output": 0.5},
+    {"name": "Bright", "mix": 1.0, "distortion": 0.42, "tone": 0.82, "bass": 0.45, "presence": 0.62, "input": 0.5, "level": 0.38, "output": 0.5},
+    {"name": "Dark", "mix": 1.0, "distortion": 0.62, "tone": 0.18, "bass": 0.58, "presence": 0.4, "input": 0.5, "level": 0.59, "output": 0.5},
+    {"name": "Heavy", "mix": 1.0, "distortion": 1.0, "tone": 0.55, "bass": 0.62, "presence": 0.5, "input": 0.6, "level": 0.46, "output": 0.5},
+    {"name": "Industrial", "mix": 0.85, "distortion": 0.9, "tone": 0.72, "bass": 0.32, "presence": 0.7, "input": 0.72, "level": 0.37, "output": 0.5}
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Orange Distortion",
+  "children": [
+    {
+      "title": "Overview",
+      "lines": [
+        "DS-1-style",
+        "distortion: a 35 dB",
+        "transistor booster,",
+        "op-amp gain stage,",
+        "hard silicon diode",
+        "clipping and the",
+        "scooped passive",
+        "tone network."
+      ]
+    },
+    {
+      "title": "Controls",
+      "lines": [
+        "1 Mix: dry/wet",
+        "2 Dist: op-amp gain",
+        "  x1 to x22",
+        "3 Tone: 0 dark,",
+        "  50% scooped mids,",
+        "  100% bright/fizzy",
+        "4 Bass: +-10 dB",
+        "  shelf at 120 Hz",
+        "5 Presence: +-9 dB",
+        "  shelf at 3.5 kHz",
+        "6 Input: +-24 dB in",
+        "7 Level: 50% = the",
+        "  input's loudness",
+        "8 Output: +-18 dB"
+      ]
+    },
+    {
+      "title": "Presets",
+      "lines": [
+        "Classic DS",
+        "Bright",
+        "Dark",
+        "Heavy",
+        "Industrial"
+      ]
+    },
+    {
+      "title": "Tips",
+      "lines": [
+        "The booster clips",
+        "before the Dist",
+        "knob does: loud",
+        "sources are dirty",
+        "even at Dist 0.",
+        "Lower Input for a",
+        "cleaner edge.",
+        "",
+        "The booster cuts",
+        "below ~300 Hz, as",
+        "on the pedal: tight",
+        "lows, bright drive."
+      ]
+    },
+    {
+      "title": "About",
+      "lines": [
+        "Unofficial emulation",
+        "Not affiliated with",
+        "BOSS / Roland.",
+        "",
+        "Original code, MIT.",
+        "4x oversampled."
+      ]
+    }
+  ]
+}

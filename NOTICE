@@ -1,0 +1,23 @@
+schwung-pedal-fx — five guitar-pedal-style audio FX for Schwung (Ableton Move)
+Copyright (c) 2026 Hiro Ikezawa
+
+UNOFFICIAL EMULATIONS. These modules are not affiliated with, authorised by,
+or endorsed by BOSS / Roland Corporation, Ibanez / Hoshino Gakki, Maxon, ProCo
+Sound / Radial Engineering, or Ableton. RAT, TS808, Tube Screamer, DS-1, BD-2,
+Blues Driver, MT-2 and Metal Zone are trademarks of their respective owners
+and are used here only to identify the circuits that were studied.
+
+Rat Drive (pfx-rat) is GPL-3.0-only. It contains code ported from:
+  - dm-Rat, Copyright (C) Dave Mollen, GPL-3.0
+    https://github.com/davemollen/dm-Rat
+  - schwung-303 (src/dsp/drive.h, drive::rat), Copyright (C) 2026 Charles
+    Vestal, GPL-3.0  https://github.com/charlesvestal/schwung-303
+
+Green Screamer (pfx-ts808), Orange Distortion (pfx-ds1), Blues Drive
+(pfx-bd2) and Metal Sweep (pfx-mt2) are original implementations under the
+MIT licence, written from published circuit analyses and textbook methods.
+
+Built against the Schwung plugin headers (MIT, Copyright (c) Charles Vestal),
+https://github.com/charlesvestal/schwung. Full attribution, the list of
+ported files and changes, and every reference consulted are in
+THIRD_PARTY_LICENSES.md.

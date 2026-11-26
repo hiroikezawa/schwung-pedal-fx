@@ -1,0 +1,78 @@
+{
+  "title": "Metal Sweep",
+  "children": [
+    {
+      "title": "Overview",
+      "lines": [
+        "MT-2-style metal",
+        "distortion: a 36 dB",
+        "mid-hump pre-stage,",
+        "two clipping",
+        "stages, a fixed",
+        "double-peaked post",
+        "EQ and a powerful",
+        "active EQ."
+      ]
+    },
+    {
+      "title": "Controls",
+      "lines": [
+        "1 Mix: dry/wet",
+        "2 Dist: x2 to x252",
+        "3 Low: +-19 dB",
+        "  (105 Hz)",
+        "4 High: +-20 dB",
+        "  shelf 2.4 kHz",
+        "  Low/High barely",
+        "  move near noon,",
+        "  fast at the ends",
+        "  (real pot law)",
+        "5 Mid: +-15 dB",
+        "6 Mid Freq:",
+        "  244 Hz - 4.6 kHz",
+        "7 Level: 50% = the",
+        "  input's loudness",
+        "8 Output: +-18 dB"
+      ]
+    },
+    {
+      "title": "Presets",
+      "lines": [
+        "Classic Metal",
+        "Scooped",
+        "Mid Grind",
+        "Industrial",
+        "Bass Destroy"
+      ]
+    },
+    {
+      "title": "Tips",
+      "lines": [
+        "Mid + Mid Freq is",
+        "the voice: cut",
+        "around 500-800 Hz",
+        "to scoop, boost",
+        "1-3 kHz to cut",
+        "through a mix.",
+        "",
+        "Mix 50-80% keeps",
+        "bass and kick weight."
+      ]
+    },
+    {
+      "title": "About",
+      "lines": [
+        "Unofficial emulation",
+        "Not affiliated with",
+        "BOSS / Roland.",
+        "",
+        "Original code, MIT.",
+        "4x oversampled.",
+        "v0.2: EQ shapes and",
+        "pot laws fitted to",
+        "circuit-derived",
+        "responses."
+      ]
+    }
+  ]
+}

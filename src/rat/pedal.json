@@ -1,0 +1,32 @@
+{
+  "id": "pfx-rat",
+  "name": "Rat Drive",
+  "abbrev": "RAT",
+  "version": "0.6.0",
+  "author": "Hiro Ikezawa",
+  "license": "GPL-3.0-only",
+  "oversampling": 4,
+  "description": "RAT-style op-amp distortion (dm-Rat model via schwung-303) with a RAT (LM308) / RAT2 (OP07DP) op-amp switch: Distortion, Filter, Volume plus Mix, Input, Low/Hi Cut and Output. Unofficial emulation.",
+  "params": [
+    {"key": "mix",        "name": "Mix",        "default": 1.0},
+    {"key": "distortion", "name": "Distortion", "default": 0.5},
+    {"key": "filter",     "name": "Filter",     "default": 0.5},
+    {"key": "low_cut",    "name": "Low Cut",    "default": 0.0},
+    {"key": "hi_cut",     "name": "Hi Cut",     "default": 0.0},
+    {"key": "input",      "name": "Input",      "default": 0.5},
+    {"key": "volume",     "name": "Volume",     "default": 0.5},
+    {"key": "output",     "name": "Output",     "default": 0.5}
+  ],
+  "switches": [
+    {"key": "model", "name": "Model", "options": ["RAT", "RAT2"], "default": 0}
+  ],
+  "presets": [
+    {"name": "Classic Rat", "mix": 1.0, "distortion": 0.6, "filter": 0.45, "low_cut": 0.05, "hi_cut": 0.0, "input": 0.5, "volume": 0.47, "output": 0.5},
+    {"name": "Clean Boost", "mix": 1.0, "distortion": 0.2, "filter": 0.2, "low_cut": 0.0, "hi_cut": 0.0, "input": 0.5, "volume": 0.81, "output": 0.5},
+    {"name": "Heavy", "mix": 1.0, "distortion": 1.0, "filter": 0.58, "low_cut": 0.22, "hi_cut": 0.12, "input": 0.58, "volume": 0.46, "output": 0.5},
+    {"name": "Synth Grind", "mix": 0.7, "distortion": 0.78, "filter": 0.35, "low_cut": 0.3, "hi_cut": 0.25, "input": 0.45, "volume": 0.44, "output": 0.5},
+    {"name": "Bass Rat", "mix": 0.5, "distortion": 0.55, "filter": 0.55, "low_cut": 0.38, "hi_cut": 0.3, "input": 0.5, "volume": 0.5, "output": 0.5},
+    {"name": "RAT2 Classic", "mix": 1.0, "distortion": 0.6, "filter": 0.45, "low_cut": 0.05, "hi_cut": 0.0, "input": 0.5, "volume": 0.46, "output": 0.5, "model": 1},
+    {"name": "RAT2 Tight", "mix": 1.0, "distortion": 0.92, "filter": 0.52, "low_cut": 0.25, "hi_cut": 0.08, "input": 0.55, "volume": 0.45, "output": 0.5, "model": 1}
+  ]
+}
